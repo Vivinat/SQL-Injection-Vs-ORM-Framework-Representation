@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vinicius/Documentos/Injection_Clinic/InjectionClinic/InjectionClinic/InjectionClinic.csproj": {}
+  },
+  "projects": {
+    "/home/vinicius/Documentos/Injection_Clinic/InjectionClinic/InjectionClinic/InjectionClinic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vinicius/Documentos/Injection_Clinic/InjectionClinic/InjectionClinic/InjectionClinic.csproj",
+        "projectName": "InjectionClinic",
+        "projectPath": "/home/vinicius/Documentos/Injection_Clinic/InjectionClinic/InjectionClinic/InjectionClinic.csproj",
+        "packagesPath": "/home/vinicius/.nuget/packages/",
+        "outputPath": "/home/vinicius/Documentos/Injection_Clinic/InjectionClinic/InjectionClinic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vinicius/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DataDictionaryGenerator": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/vinicius/.dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
